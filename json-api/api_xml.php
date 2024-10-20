@@ -1,4 +1,6 @@
-<?php header('Content-Type: application/xml');
+<?php 
+header('Content-Type: application/xml');
+
 $xml = new SimpleXMLElement('<persons/>');
 $person = $xml->addChild('person');
 $person->addChild('id', 1);
